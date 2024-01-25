@@ -486,6 +486,9 @@ a{
 }
 
 @media (width<600px){
+    nav{
+        height: 12%;
+    }
     nav .checkbox{
         display: block;
     }
