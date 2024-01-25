@@ -487,7 +487,7 @@ a{
 
 @media (width<600px){
     nav{
-        height: 10%;
+        height: 7%;
     }
     nav .checkbox{
         display: block;
