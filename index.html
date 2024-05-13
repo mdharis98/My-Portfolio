@@ -43,7 +43,7 @@
         <div class="container">
             <div id="pro_pic">
                 <div>
-                    <img src="assets/haris.jpeg" alt="My image">
+                    <img id="randPic" src="" alt="My image">
                 </div>
             </div>
             <div class="content">
@@ -55,20 +55,20 @@
                     </div>
                     <div class="icon">
 
-                        <a href="https://instagram.com/haris_._qamar?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram icon1" ></i></a>
-                        <a href="https://www.linkedin.com/in/mohammad-haris-5aa198281/"><i
+                        <a class="insta"><i class="fa-brands fa-instagram icon1" ></i></a>
+                        <a class="linkedin"><i
                                 class="fa-brands fa-linkedin-in  icon1"></i></a>
-                        <a href="https://github.com/mdharis98"><i class="fa-brands fa-github icon1"></i></a>
-                        <a href="http://wa.me/919889652910?text=hello+Mohammad+Haris+!+How+are+you+"><i
+                        <a class="github"><i class="fa-brands fa-github icon1"></i></a>
+                        <a class="whtsp"><i
                                 class="fa-brands fa-whatsapp icon1"></i></a>
-                        <a href="https://mohammadharis7704@gmail.com"><i class="fa-regular fa-envelope icon1"></i></a>
+                        <a class="mail"><i class="fa-regular fa-envelope icon1"></i></a>
 
                     </div>
                 </div>
                 <div class="D_CV">
                     <p>Download my curriculum vitae:</p>
                         <div class="btn">
-                            <a href="assets/MD HARIS RESUME.pdf"><button class="cv1">Download CV <i
+                            <a id="pdf"><button class="cv1">Download CV <i
                                 class="fa-regular fa-file"></i></button></a>
                             <a href="https://www.linkedin.com/in/mohammad-haris-5aa198281/"><button type="menu">Hire Me</button></a>
                         </div> 
@@ -309,13 +309,13 @@
 
                 <div class="icon1">
 
-                    <a href="https://instagram.com/haris_._qamar?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram icon1" ></i></a>
-                    <a href="https://www.linkedin.com/in/mohammad-haris-5aa198281/"><i
+                    <a class="insta"><i class="fa-brands fa-instagram icon1" ></i></a>
+                    <a class="linkedin"><i
                             class="fa-brands fa-linkedin-in  icon1"></i></a>
-                    <a href="https://github.com/mdharis98"><i class="fa-brands fa-github icon1"></i></a>
-                    <a href="http://wa.me/919889652910?text=hello+Mohammad+Haris+!+How+are+you+"><i
+                    <a class="github"><i class="fa-brands fa-github icon1"></i></a>
+                    <a class="whtsp"><i
                             class="fa-brands fa-whatsapp icon1"></i></a>
-                    <a href="https://mohammadharis7704@gmail.com"><i class="fa-regular fa-envelope icon1"></i></a>
+                    <a class="mail"><i class="fa-regular fa-envelope icon1"></i></a>
 
                 </div>
 
@@ -329,17 +329,7 @@
     </div>
 
 
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwd8AxoIoDiEgNoLaqVlXx1Bp5ER612gU0wXV0BwWtqa8V4wvD9GLAfqCaU9Iuz5cHGzQ/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+       <script src="app.js"></script>
 
 </body>
 
