@@ -64,13 +64,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const photos = [
-  "assets/haris.jpeg",
-  "assets/haris2.jpg",
+  // "assets/haris.jpeg",
+  // "assets/haris2.jpg",
   "assets/haris3.jpg",
-  "assets/haris4.jpg",
-  "assets/haris5.jpg",
-  "assets/haris6.jpg",
-  "assets/haris7.jpg",
+  // "assets/haris4.jpg",
+  // "assets/haris5.jpg",
+  // "assets/haris6.jpg",
+  // "assets/haris7.jpg",
 ];
 
 function getRandPic() {
