@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
 let btn = document.querySelector("#pdf");
 
 btn.addEventListener("click", () => {
-  window.location.href = "assets/MD HARIS RESUME.pdf";
+  window.location.href = "assets/MD_HARIS_RESUME.PDF";
 });
 
 let instas = document.querySelectorAll(".insta");
